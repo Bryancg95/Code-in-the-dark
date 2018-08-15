@@ -1,0 +1,33 @@
+.empresas{
+  width: 100%;
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    li{
+        min-width: 12%;
+        margin: 20px 5px;
+        a{
+          filter: grayscale(100%);
+          img{
+           height: 60px;
+           width: 150px;
+          }
+          &:hover{
+            transition-duration: .5s;
+            filter: grayscale(0%);
+          }
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .empresas{
+    ul{
+      justify-content: space-around;
+    }
+  }
+}

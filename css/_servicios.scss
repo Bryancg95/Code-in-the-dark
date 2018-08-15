@@ -1,0 +1,49 @@
+.servicios{
+  background-color: #7ba4ab;
+  width: 100%;
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    li{
+      font-size: 20px;
+      text-align: center;
+      width: 25%;
+      display: flex;
+      a{
+         display: block;
+         padding: 24px 0px;
+         padding-bottom: 7px;
+         text-decoration: none;
+         color: white;
+
+         width: 100%;
+         &:hover{
+           transition-duration: .4s;
+           background-color: #6D6866;
+         }
+        i{
+          padding: 5px;
+          font-size: 55px;
+        }
+        p{
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .servicio{
+    min-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .servicio{
+    min-width: 100%;
+  }
+}

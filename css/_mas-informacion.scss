@@ -1,0 +1,50 @@
+.mas-informacion{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  p{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    i{
+      margin-top: 10px;
+    }
+    a{
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 12px;
+    text-decoration: none;
+    background: #674d76;
+    color: rgba(255,255,255,1);
+    border-radius: 4px;
+    &:hover{
+      color: rgba(255,255,255,.5);
+      }
+    }
+  }
+}
+.logos{
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  img{
+    min-width: 20%;
+    height: 80px;
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .mas-informacion {
+    padding: 20px 0px;
+    p a{
+      font-size: 10px;
+    }
+  }
+
+
+}

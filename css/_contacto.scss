@@ -1,0 +1,27 @@
+.contacto{
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h3{
+    color: #7BA4AB;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  p{
+    padding: 10px;
+    min-width: 30%;
+    background: white;
+  box-shadow: 5px 6px 15px -6px rgba(0,0,0,0.75);
+  }
+
+}
